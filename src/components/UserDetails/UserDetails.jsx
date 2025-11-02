@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router';
 
 const UserDetails = () => {
     const eachUser=useLoaderData()
-    console.log(eachUser)
+    // console.log(eachUser)
     const {name,email,company,phone}=eachUser
     return (
         <div>

@@ -6,9 +6,10 @@ const Header = () => {
     return (
         <div>
             <NavLink to='/'>Home</NavLink>
-            <NavLink to='mobiles'>Mobiles</NavLink>
-            <NavLink to='laptops'>Laptops</NavLink>
-            <NavLink to='users'>Users</NavLink>
+            <NavLink to='/mobiles'>Mobiles</NavLink>
+            <NavLink to='/laptops'>Laptops</NavLink>
+            <NavLink to='/users'>Users</NavLink>
+            <NavLink to='/posts'>Posts</NavLink>
         </div>
     );
 };
