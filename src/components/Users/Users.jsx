@@ -1,12 +1,16 @@
 import React from 'react';
 import { useLoaderData } from 'react-router';
+import User from '../User/User';
 
 const Users = () => {
     const usersData=useLoaderData()
-    console.log(usersData)
+    // console.log(usersData)
     return (
         <div>
-            This is the users
+            <p>This is Users data format</p>
+            {
+                usersData.map(user=><User key={user.id} user={user}></User>)
+            }
         </div>
     );
 };
